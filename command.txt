@@ -1,0 +1,8 @@
+npm init -y
+
+psql -U myuser:mypass -d db_case_study -f tables.sql
+psql -U myuser -d db_case_study -f tables_reported_users.sql 
+
+
+
+
